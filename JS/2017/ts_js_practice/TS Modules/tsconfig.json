@@ -1,0 +1,21 @@
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target":"es6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "lib": [
+         "es2016",
+         "dom",
+         "es5"
+        ],         
+        "outDir":"../"
+    },
+    "files": [
+        "sample.ts",
+        "sample_exports.ts"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+  "port": 8000,
+  "files": ["../ts_js_practice/**/*.{html,htm,css,js}"],
+  "server": { "baseDir": "../ts_js_practice" }
+}

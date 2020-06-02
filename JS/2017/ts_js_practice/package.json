@@ -1,0 +1,16 @@
+{
+  "name": "varvslet",
+  "version": "0.0.1",
+  "description": "experiment with typescript var scoping and solutions",
+  "main": "variableDestructuring.js",
+  "scripts": {
+    "serve": "lite-server -c config/my-bs-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "lite-server": "^2.4.0"
+  }
+}
