@@ -9,7 +9,7 @@ let maxArea = heights => {
 
   while (left < right) {
     let lHeight = heights[left];
-    let rHeight = heights[heights.length - 1];
+    let rHeight = heights[right];
     let w = right - left;
     let currentMaxArea = Math.min(lHeight, rHeight) * w;
 
