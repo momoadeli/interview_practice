@@ -1,6 +1,6 @@
 var merge = function(intervals) {
 
-  if (intervals === undefined || intervals.length === 0) return 0;
+  if (!intervals || intervals.length === 0) return [];
 
   let results = [];
 
