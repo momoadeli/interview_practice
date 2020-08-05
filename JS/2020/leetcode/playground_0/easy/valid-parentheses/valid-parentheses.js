@@ -20,8 +20,6 @@ var isValid = function (s) {
 
   for (let i = 0; i < s.length; i++) {
 
-    let cnt = 0;
-
     switch (s[i]) {
       case '(':
       case '{':
