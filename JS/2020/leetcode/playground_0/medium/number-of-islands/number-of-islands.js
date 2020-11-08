@@ -1,4 +1,4 @@
-// alterbnativ
+// alternative
 let dfs = function (grid, row, col) {
 
   grid[row][col] = null;
