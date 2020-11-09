@@ -1,0 +1,24 @@
+# These are the JS related questions to consider learning
+
+- ES6 structures
+- classes (vs function constructors), prototypes, inheritance/ polymorphism
+  - class method (no arrows?)
+- arrow functions
+- rest vs spread
+  - The spread operator unpacks elements.
+  - The rest parametr packs elements into an array.
+  - see: <https://www.javascripttutorial.net/es6/javascript-spread/>
+- call vs apply vs bind
+- memoization
+- decomposition (array ve object)
+- javascript architecture: event loop, nonblocking, asynchronous, ect
+- async concpets: promise, asyn/await, reactiveX
+- web tokens and security
+- various for loops: for, foreach, for of, ...
+- various iterations
+- arrays
+- linked lists
+- map, sets
+- scope, let, var, literals
+- closures
+- functional programming/currying
