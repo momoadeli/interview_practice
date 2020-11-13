@@ -1,6 +1,18 @@
 # These are the JS related questions to consider learning
 
 - ES6 structures
+  - primitives:
+    - string,
+    - number,
+    - boolean,
+    - undefined,
+    - BigInt:  double-precision 64-bit binary format IEEE 754 value
+    - Symbol:
+      - symbol/reflect/proxy: meta programming with ES6: <https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/>
+      - https://developer.mozilla.org/en-US/docs/Glossary/Symbol
+      - why use? <https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c>
+      -
+  - data types
 - SOLID
   - dependency injection
 - classes (vs function constructors), prototypes, inheritance/ polymorphism
@@ -10,6 +22,9 @@
 - arrow functions
   - unlike regular functions don't have a separate 'this' which resolves some closure issues:
     - <https://medium.com/@vmarchesin/javascript-arrow-functions-and-closures-4e53aa30b774>
+- functions:
+  - pure
+  - higher order
 - rest vs spread
   - The spread operator unpacks elements.
   - The rest parametr packs elements into an array.
