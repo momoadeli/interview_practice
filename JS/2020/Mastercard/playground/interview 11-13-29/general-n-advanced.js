@@ -1,5 +1,7 @@
 // spread and rest operations
 
+const twoDArray = new Array(5).fill(0).map( el => el = new Array(5).fill(0));
+
 let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
 
