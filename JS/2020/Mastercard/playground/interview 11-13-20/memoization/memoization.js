@@ -23,7 +23,7 @@ function demoMemo(func) {
   }
 }
 
-// Our function expression here calls demoMemo and passes it an anonymous function.
+// Our function expression here calls demoMemo and passes it an anonymous function. for extra stuff....might not need it for memoization
 var adder = demoMemo(function (num) {
   num + num;
 })

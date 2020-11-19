@@ -18,6 +18,7 @@
 - SOLID: 'single resonsibility', 'open closed'. 'liskov substituion', 'interface segregation', 'dependency inversion'
   - dependency injection
 - classes (vs function constructors), prototypes, inheritance/ polymorphism
+  - old school prototypical oop and prototypal inheritance: http://phrogz.net/js/classes/OOPinJS.html
   - class method (no arrows?):
     - <https://stackoverflow.com/questions/48920135/es6-functions-arrow-functions-and-this-in-an-es6-class>
     - <https://stackoverflow.com/questions/48920135/es6-functions-arrow-functions-and-this-in-an-es6-class>
