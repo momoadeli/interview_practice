@@ -111,3 +111,24 @@ const fAnimal = () => {
 const fAn = fAnimal();
 testThis_MakeSound(fAn.makeSound); // works without binding
 
+class Dog {
+  constructor(name) {
+    name = name;
+  }
+
+  bark() {
+    console.log('inside bark. name is ', this.name);
+  }
+
+  sitAndBark() {
+    setTimeout( function() {
+      console.log('inside sitnbark timeout. name is ', this.name);
+    })
+  }
+}
+
+const dog2 = new Dog('bob');
+
+dog2.bark();
+dog2.sitAndBark();
+
