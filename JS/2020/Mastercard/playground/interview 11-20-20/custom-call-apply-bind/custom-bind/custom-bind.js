@@ -1,24 +1,28 @@
-const testObj = {theName: 'rose', color: 'red'};
+const testObj = {type: 'rose', color: 'red'};
 
-const testFunc = function() {
-    console.log(`the color is ${this.color} and the name is ${this.theName}`);
+const myTestFunc = function() {
+    console.log(`the type is ${this.type} and color is ${this.color}`)
 }
 
-testFunc(); //unbound.print's undefined attributes
+const show = myTestFunc.bind(testObj);
 
-const show = testFunc.bind(testObj);    //bound correctly
 show();
 
-// Object.prototype.cbind = Object.prototype.bind;
+// my custom bind
 
-Object.prototype.cbind = function(...args) {
-    console.log('calling cbind');
-    // return this(args)
-    return this;
-    // return args[0];
-    // return Object.prototype.bind;
-};
+Function.prototype.my_bind = function(otherThis) {
 
-const testShow = testFunc.cbind(testObj);
-testShow;
-testShow();
+    let boundTargetFunction = this;
+
+    return function boundFunction() {
+
+        return boundTargetFunction.apply(otherThis);
+    }
+
+}
+
+
+const myBindShow = myTestFunc.my_bind(testObj);
+
+myBindShow();
+
