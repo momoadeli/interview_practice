@@ -4,7 +4,7 @@ const myTestFunc = function(name) {
     console.log(`the type is ${this.type} and the color is ${this.color} and name is ${name}`);
 }
 
-myTestFunc.apply(testObj); //   conventional call
+myTestFunc.apply(testObj, ['rose', 'violet']); //   conventional calkl 
 
 Function.prototype.my_apply = function(otherThis, ...args) {
     let sym = Symbol(this);
@@ -13,3 +13,4 @@ Function.prototype.my_apply = function(otherThis, ...args) {
 }
 
 myTestFunc.my_apply(testObj, ['rose', 'violet']);
+

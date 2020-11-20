@@ -27,7 +27,7 @@
     - <https://medium.com/@vmarchesin/javascript-arrow-functions-and-closures-4e53aa30b774>
 - functions:
   - pure
-  - higher order
+  - higher orderZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 - rest vs spread
   - The spread operator unpacks elements.
   - The rest parametr packs elements into an array.
