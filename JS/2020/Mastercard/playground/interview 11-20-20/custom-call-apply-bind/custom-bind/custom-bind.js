@@ -21,7 +21,6 @@ Function.prototype.my_bind = function(otherThis) {
 
 }
 
-
 const myBindShow = myTestFunc.my_bind(testObj);
 
 myBindShow();
