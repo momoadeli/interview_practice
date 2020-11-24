@@ -1,4 +1,5 @@
 // function* is a keyword so can use arrow functions in generators
+// generators are functions that can be exited and later reentered.
 
 function* infinite() {
 
