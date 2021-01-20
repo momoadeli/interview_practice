@@ -30,7 +30,7 @@
   - higher orderZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 - rest vs spread
   - The spread operator unpacks elements.
-  - The rest parametr packs elements into an array.
+  - The rest parameter packs elements into an array.
   - see: <https://www.javascripttutorial.net/es6/javascript-spread/>
 - call vs apply vs bind: <https://www.hacksparrow.com/javascript/bind-vs-apply-vs-call.html>
 - memoization (uses closure a cache): <https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19>

@@ -22,7 +22,7 @@
     - Components: Directives with a template
     - attribute (custom and built in): NgModel, NgClass, NgStyle
     - structural (NgFor(of), NgSwitch/(Case), NgIf, etc)
-        - the * p[refix (eg *ngIf) genrates an <ng-template>]
+        - the * prefix (eg *ngIf) genrates an <ng-template>]
     - microsyntax: let-hero, let-i, 
         - https://angular.io/guide/structural-directives
         - https://angular.io/guide/structural-directives#microsyntax 
